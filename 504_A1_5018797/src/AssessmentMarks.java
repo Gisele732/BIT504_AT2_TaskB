@@ -55,7 +55,7 @@ public class AssessmentMarks {
 	public String markToGrade(int mark) {
 		String grade = null;
 		if (mark <= 40) {
-			grade = "D";			
+			grade = "FAIL";			
 		}
 		if (mark > 40 && mark <= 49) {
 			grade = "C-";			
@@ -91,7 +91,7 @@ public class AssessmentMarks {
 		String averageGrade = null;
 		int averageMark = getAverageMark();
 		if (averageMark <= 40) {
-			averageGrade = "D";			
+			averageGrade = "FAIL";			
 		}
 		if (averageMark > 40 && averageMark <= 49) {
 			averageGrade = "C-";			
