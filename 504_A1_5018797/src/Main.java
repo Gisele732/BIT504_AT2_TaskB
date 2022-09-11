@@ -98,7 +98,7 @@ public class Main {
 	
 	private static void displayMenu() {
 		System.out.println(" ");
-		System.out.println("Student Report System");
+		System.out.println("Student Manager and Grade Reporting System");
 		System.out.println("---------------------");
 		System.out.println("1- Display Student Marks"
 				+ "\n2- Display Student Grades"
